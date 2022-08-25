@@ -1,0 +1,33 @@
+section.repository-list {
+  padding: 40px;
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      width: 50%;
+      & + li {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #444;
+      }
+
+      p {
+        font-size: 14px;
+        color: #444;
+        margin-top: 8px;
+      }
+
+      a {
+        display: inline-block;
+        margin-top: 16px;
+        text-decoration: none;
+        color: #8257e6;
+      }
+    }
+  }
+}
